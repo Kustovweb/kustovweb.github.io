@@ -15,8 +15,16 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
     font-family: "Lato", sans-serif;
 }
+.main {
+    flex: 1;
+}
+
 
 svg {
     display: block;
@@ -199,8 +207,6 @@ img {
 .top__img {
     width: 50vw;
     display: flex;
-    justify-content: flex-end;
-
 }
 
 .top__text h1 {
